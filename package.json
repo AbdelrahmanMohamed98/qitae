@@ -1,0 +1,21 @@
+{
+  "name": "qitae",
+  "private": true,
+  "workspaces": [
+    "shared",
+    "web",
+    "mobile"
+  ],
+  "overrides": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "scripts": {
+    "dev:web": "npm run dev -w @qitae/web",
+    "dev:mobile": "npm run dev -w @qitae/mobile",
+    "build:web": "npm run build -w @qitae/web",
+    "build:mobile": "npm run build -w @qitae/mobile",
+    "lint": "npm run lint -w @qitae/mobile",
+    "test": "npm run test -w @qitae/shared && npm run test -w @qitae/web"
+  }
+}

@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+mobile/node_modules/
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Expo (machine-specific device history and dev server settings)
+.expo/
+
+# IDE / OS
+.idea/
+.vscode/
+*.log
+.DS_Store
+
+# Optional: exclude legacy or generated folders from submission
+# mobile_old/

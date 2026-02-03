@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Qitae Mobile",
+    "slug": "qitae-mobile",
+    "version": "1.0.0",
+    "scheme": "qitae",
+    "userInterfaceStyle": "automatic",
+    "orientation": "portrait",
+    "icon": "../shared/assets/icon.png",
+    "splash": {
+      "image": "../shared/assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.qitae.mobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "../shared/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.qitae.mobile",
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "../shared/assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}

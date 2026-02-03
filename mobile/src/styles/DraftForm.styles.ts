@@ -1,0 +1,62 @@
+import { StyleSheet } from 'react-native';
+import { colors } from './colors';
+
+export const styles = StyleSheet.create({
+  container: { flex: 1, backgroundColor: colors.bgAlt },
+  scroll: { padding: 16, paddingBottom: 32 },
+  centered: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 24,
+  },
+  error: { color: colors.red, marginBottom: 16 },
+  muted: { color: colors.gray500 },
+  backBtn: { padding: 12, backgroundColor: colors.indigo600, borderRadius: 8 },
+  backBtnText: { color: colors.white, fontWeight: '600' },
+  label: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: colors.slate700,
+    marginBottom: 6,
+  },
+  input: {
+    backgroundColor: colors.white,
+    borderWidth: 1,
+    borderColor: colors.grayBorder,
+    borderRadius: 8,
+    padding: 12,
+    fontSize: 16,
+    color: colors.slate900,
+    marginBottom: 4,
+  },
+  textArea: { minHeight: 120, textAlignVertical: 'top' as const },
+  errText: { fontSize: 13, color: colors.red, marginBottom: 12 },
+  sectorRow: { flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginBottom: 4 },
+  chip: {
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    backgroundColor: colors.slate200,
+    borderRadius: 8,
+  },
+  chipSelected: { backgroundColor: colors.indigo600 },
+  chipText: { fontSize: 14, color: colors.slate700 },
+  chipTextSelected: { color: colors.white, fontWeight: '600' },
+  actions: { marginTop: 24, gap: 12 },
+  btnPrimary: {
+    backgroundColor: colors.indigo600,
+    padding: 14,
+    borderRadius: 8,
+    alignItems: 'center',
+  },
+  btnDisabled: { opacity: 0.5 },
+  btnPrimaryText: { color: colors.white, fontWeight: '600', fontSize: 16 },
+  btnSecondary: {
+    borderWidth: 1,
+    borderColor: colors.grayBorder,
+    padding: 14,
+    borderRadius: 8,
+    alignItems: 'center',
+  },
+  btnSecondaryText: { color: colors.slate700, fontWeight: '600', fontSize: 16 },
+});
